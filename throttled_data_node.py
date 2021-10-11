@@ -7,7 +7,7 @@ from nav_msgs.msg import Odometry
 import argparse
 
 parser = argparse.ArgumentParser(description='Output data throttle node.')
-parser.add_argument('rate', type=int, default=8, help='Sample rate in Hz')
+parser.add_argument('--rate', type=int, default=8, help='Sample rate in Hz')
 args = parser.parse_args()
 
 depth_img = None
