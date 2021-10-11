@@ -1,0 +1,2 @@
+#!/bin/bash
+rosbag record -b 1024 --duration=15m -j -o /data/robot_collection/ /tf /tf_static /odom /odom_combined /odom_combined_throttle_sync /camera/rgb/image_raw_throttle_sync /camera/depth/image_raw_throttle_sync /camera/depth/camera_info /camera/rgb/camera_info /cmd_vel /base_scan /teleop/cmd_vel
